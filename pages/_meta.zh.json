@@ -1,0 +1,21 @@
+{
+  "index": "介绍",
+  "multi-chain-support": "多链支持",
+  "key-management": "密钥管理",
+  "aa": "账户抽象",
+  "relayer": "交易中继",
+  "---": {
+    "type": "separator"
+  },
+  "onboarding-web2-users": "构建用户友好的账户体系",
+  "about": {
+    "title": "关于",
+    "type": "page"
+  },
+  "contact": {
+    "title": "联系我们 ↗",
+    "type": "page",
+    "href": "https://twitter.com/orbital3xyz",
+    "newWindow": true
+  }
+}

@@ -1,0 +1,36 @@
+
+# Security Account
+
+The key for #### security account has three parts, which are
+
+* Active key: held by the user and used for daily signature
+* Hosted key: Held by the platform and used with the user to co-manage the account
+* Backup key (optional): held by the user and can be used to restore the account with the backup key
+
+### Fully hosted mode
+
+{% hint style="info" %}
+Key composition: escrow key &#x20;
+{% endhint %}
+
+Delegate account management to the platform for ease of use.
+
+### Co-Hosted mode
+
+{% hint style="info" %}
+Key composition: active key + escrow key
+{% endhint %}
+
+_Upgrade to co-hosted mode by adding an external key, the wallet developer **can't manipulate **user's account without permission. _
+
+In this model, the user and the platform each hold a share of the key, which on the one hand can limit the platform's evil and also avoid security issues due to the leakage of the user's key. It is usually used with third-party cloud storage to avoid the risk of loss.
+
+### Auxiliary hosting mode
+
+{% hint style="info" %}
+Key composition: active key + escrow key + backup key &#x20;
+{% endhint %}
+
+_Go ahead and add the recovery key to the secure account, at which point the user has full control over the account and the wallet developer **can't prevent the user from operating **their account. _&#x20;
+
+This model can also be called the self-hosted model because the user is absolutely responsible for the security of the account, and the key distribution is such that the platform has one key and the user has two. When the system stops operating or when uncontrollable factors occur, the user can use the backup key and get back control of the account.
