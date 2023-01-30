@@ -5,9 +5,11 @@
   "aa": "Account Abstraction",
   "relayer": "Relayer",
   "---": {
+    "title": "Best Practices",
     "type": "separator"
   },
   "onboarding-web2-users": "Onboarding Web2 Users",
+  "featured-partners": "Featured Partners",
   "about": {
     "title": "About",
     "type": "page"
