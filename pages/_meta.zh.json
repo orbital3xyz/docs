@@ -5,6 +5,7 @@
   "aa": "账户抽象",
   "relayer": "交易中继",
   "---": {
+    "title": "最佳实践",
     "type": "separator"
   },
   "onboarding-web2-users": "构建用户友好的账户体系",
