@@ -1,10 +1,14 @@
 {
   "index": "Introduction",
   "multi-chain-support": "Multi-Chain Support",
-  "key-management": "Key Management",
   "aa": "Account Abstraction",
   "relayer": "Relayer",
-  "---": {
+  "security": {
+    "title": "Security",
+    "type": "separator"
+  },
+  "key-management": "Key Management",
+  "best-practices": {
     "title": "Best Practices",
     "type": "separator"
   },
