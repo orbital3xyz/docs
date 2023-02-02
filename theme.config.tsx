@@ -16,7 +16,7 @@ const config: DocsThemeConfig = {
     </span>,
   },
   i18n: [
-    { locale: 'en', text: 'English' }, 
+    { locale: 'en', text: 'English' },
     { locale: 'zh', text: '简体中文' },
   ],
   sidebar: {
