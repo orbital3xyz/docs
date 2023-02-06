@@ -13,7 +13,10 @@
     "type": "separator"
   },
   "onboarding-web2-users": "构建用户友好的账户体系",
-  "featured-partners": "合作伙伴",
+  "featured-partners": {
+    "title": "合作伙伴",
+    "type": "page"
+  },
   "about": {
     "title": "关于",
     "type": "page"
